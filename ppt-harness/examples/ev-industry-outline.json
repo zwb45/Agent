@@ -1,0 +1,96 @@
+{
+  "_comment": "Non-healthcare demo — proves the harness is general-purpose. Same terse outline format; the compiler adapts icons/images to the EV domain. Run: node generate.js --outline examples/ev-industry-outline.json",
+  "topic": "2026 新能源汽车行业展望",
+  "subtitle": "电动化 · 智能化 · 全球化",
+  "meta": "2026 · 行业研究",
+  "theme": "midnight",
+  "footerLabel": "新能源汽车行业展望",
+  "sections": [
+    {
+      "kind": "stats",
+      "title": "行业关键数字",
+      "sub": "渗透率与规模双突破，新能源进入主流。",
+      "stats": [
+        { "big": "35%", "label": "2025 全球新车渗透率", "sub": "同比 +8 个百分点" },
+        { "big": "1700万", "label": "全球年销量", "sub": "中国占比超 60%" },
+        { "big": "800V", "label": "高压快充普及", "sub": "充电 10 分钟续航 300km" }
+      ],
+      "cols": [
+        { "title": "核心驱动力", "bullets": ["电池成本持续下降", "政策与补贴退坡平滑", "充电网络快速加密"] },
+        { "title": "结构性机会", "bullets": ["智能化溢价提升", "出海与本地化并进", "二手车与电池回收"] }
+      ],
+      "note": "数据为行业综合估算，仅供示意。"
+    },
+    {
+      "kind": "iconGrid",
+      "title": "六大核心技术栈",
+      "sub": "从三电到智能，技术壁垒持续抬升。",
+      "items": [
+        { "title": "动力电池", "desc": "高能量密度电芯与 CTB 一体化集成" },
+        { "title": "电驱动", "desc": "高效扁线电机与多合一电驱总成" },
+        { "title": "自动驾驶", "desc": "城市 NOA 与端到端大模型上车" },
+        { "title": "智能座舱", "desc": "多模态交互与大模型语音助手" },
+        { "title": "高压快充", "desc": "800V 平台与超充网络协同" },
+        { "title": "智能制造", "desc": "一体化压铸与柔性产线提效" }
+      ]
+    },
+    {
+      "kind": "chart",
+      "title": "全球新能源销量增长",
+      "sub": "五年间年销量从数百万跃升至千万级。",
+      "lead": "电动化进入加速期，复合增长率保持高位。",
+      "stat": { "big": "+38%", "desc": "近三年全球销量年复合增长" },
+      "chartTitle": "全球新能源乘用车年销量（万辆）",
+      "cats": ["2021", "2022", "2023", "2024", "2025"],
+      "vals": [460, 780, 1120, 1450, 1700],
+      "suffix": "",
+      "color": "5C8DEF",
+      "yTitle": "万辆",
+      "note": "数据为综合估算。"
+    },
+    {
+      "kind": "flow",
+      "title": "车型研发到量产闭环",
+      "sub": "从需求到交付的数字化主线。",
+      "stats": [
+        { "big": "24 月", "label": "概念到量产周期" },
+        { "big": "OTA", "label": "持续迭代能力" }
+      ],
+      "heading": "从市场到用户",
+      "items": [
+        { "title": "需求洞察", "desc": "用户研究与场景定义" },
+        { "title": "研发设计", "desc": "三电、底盘与电子电气架构" },
+        { "title": "工程验证", "desc": "仿真与多轮路试" },
+        { "title": "智能制造", "desc": "一体化压铸与柔性产线" },
+        { "title": "销售服务", "desc": "直营网络与全生命周期运营" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "头部车企竞争力速览",
+      "sub": "不同路线的代表玩家。",
+      "columns": [
+        { "header": "代表玩家", "key": "name", "w": 0.24 },
+        { "header": "路线", "key": "road", "w": 0.18 },
+        { "header": "差异化", "key": "cap", "w": 0.38 },
+        { "header": "态势", "key": "status", "w": 0.20, "align": "center" }
+      ],
+      "rows": [
+        { "name": { "text": "比亚迪", "bold": true, "color": "2C3E8E" }, "road": "垂直整合", "cap": "三电自研 + 全价格带覆盖", "status": { "text": "领跑", "color": "2DBE9E", "bold": true } },
+        { "name": { "text": "特斯拉", "bold": true, "color": "2C3E8E" }, "road": "智驾 + 极简", "cap": "FSD 与制造工艺创新", "status": { "text": "全球", "color": "2DBE9E", "bold": true } },
+        { "name": { "text": "新势力群", "bold": true, "color": "2C3E8E" }, "road": "智能化", "cap": "城市 NOA 与座舱体验", "status": { "text": "追赶", "color": "F4C95D", "bold": true } }
+      ],
+      "note": "仅为代表性梳理，非完整清单。"
+    },
+    {
+      "kind": "future",
+      "title": "未来三大趋势",
+      "sub": "电动化、智能化与全球化的融合深化。",
+      "items": [
+        { "title": "AI 定义汽车", "desc": "端到端大模型重塑驾乘与座舱体验。" },
+        { "title": "全球本地化", "desc": "海外建厂与品牌出海进入深水区。" },
+        { "title": "全链低碳", "desc": "从制造、使用到电池回收的碳闭环。" }
+      ]
+    }
+  ]
+}

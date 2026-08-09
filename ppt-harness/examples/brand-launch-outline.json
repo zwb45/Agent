@@ -1,0 +1,78 @@
+{
+  "_comment": "Demo of an LLM-AUTHORED design (not a preset): a custom warm brand palette + editorial layout axes. Proves the look is decided per-deck, not stamped from a template. Run: node generate.js --outline examples/brand-launch-outline.json",
+  "topic": "Lumen 新品牌发布",
+  "subtitle": "点亮每一天的智能家居",
+  "meta": "2026 · 品牌发布会",
+  "footerLabel": "Lumen Brand Launch",
+  "design": {
+    "palette": {
+      "dark": "2E1B2E",
+      "primary": "B5335A",
+      "mint": "E08FA3",
+      "mintLt": "F4D6DE",
+      "coral": "F2784B",
+      "amber": "F2B66D",
+      "violet": "8C5B7B",
+      "ink": "2A1320",
+      "slate": "6E4A59",
+      "muted": "9C7B89",
+      "offWhite": "FBF2F0",
+      "cardTint": "F6E2DF",
+      "white": "FFFFFF"
+    },
+    "typography": { "headingFont": "Cambria", "bodyFont": "Calibri" },
+    "header": "bar",
+    "cover": "split",
+    "card": "flat",
+    "decorate": "bars"
+  },
+  "sections": [
+    {
+      "kind": "stats",
+      "title": "为什么是现在",
+      "sub": "智能家居正从单品走向整屋体验。",
+      "stats": [
+        { "big": "68%", "label": "家庭渗透率目标", "sub": "三年内整屋智能" },
+        { "big": "3.2×", "label": "语音交互增长", "sub": "年同比" },
+        { "big": "<2s", "label": "场景联动响应", "sub": "回家即亮" }
+      ],
+      "cols": [
+        { "title": "市场机会", "bullets": ["从遥控器走向主动智能", "全屋方案客单价更高", "年轻家庭成为主力"] },
+        { "title": "我们的差异", "bullets": ["自研传感与边缘算法", "开放生态，品牌互通", "设计驱动，融入家居"] }
+      ],
+      "note": "数据为综合估算，仅供示意。"
+    },
+    {
+      "kind": "iconGrid",
+      "title": "四大产品线",
+      "sub": "光、安、适、联——覆盖整屋。",
+      "items": [
+        { "title": "智能照明", "desc": "自适应色温与场景氛围", "img": "smart home ambient lighting" },
+        { "title": "安全安防", "desc": "门锁、摄像头与异常告警", "img": "smart home security camera" },
+        { "title": "环境舒适", "desc": "温控、空气质量与窗帘联动", "img": "smart thermostat home" },
+        { "title": "全屋互联", "desc": "一个 App 统管所有设备", "img": "smart home app control" }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "回家场景自动化",
+      "sub": "推门一刻，全屋就绪。",
+      "items": [
+        { "title": "识别", "desc": "门锁识别成员身份" },
+        { "title": "联动", "desc": "灯光、空调、窗帘就位" },
+        { "title": "氛围", "desc": "音乐与色温切换" },
+        { "title": "守护", "desc": "布防切换与夜间模式" }
+      ]
+    },
+    {
+      "kind": "future",
+      "title": "下一程",
+      "sub": "从智能走向懂你。",
+      "items": [
+        { "title": "主动智能", "desc": "由规则驱动升级为习惯学习，主动预判需求。" },
+        { "title": "多模态交互", "desc": "语音、手势、存在感知自然融合。" },
+        { "title": "能源管理", "desc": "整屋能耗可视化与自动节能。" }
+      ]
+    }
+  ]
+}

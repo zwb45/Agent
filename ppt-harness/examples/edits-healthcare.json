@@ -1,0 +1,52 @@
+[
+  { "//": "Edit-ops demo for `node edit.js --spec <deck>.pptx.spec.json --edits examples/edits-healthcare.json`" },
+  { "//": "Address slides by stable id (preferred, e.g. \"s3\") OR 1-based slide number." },
+  {
+    "op": "setTitle",
+    "id": "s1",
+    "title": "【v2】AI 正在重塑医疗的未来",
+    "_why": "reword the cover headline"
+  },
+  {
+    "op": "patch",
+    "id": "s4",
+    "patch": { "sub": "（更新）六大场景，覆盖诊前诊中诊后" },
+    "_why": "tighten a section subtitle — deep-merges into the slide"
+  },
+  {
+    "op": "set",
+    "slide": 5,
+    "field": "note",
+    "value": "数据来源：更新至 2026 Q2。",
+    "_why": "add a source footnote to slide 5 (chart) by 1-based index"
+  },
+  {
+    "op": "insert",
+    "after": "s2",
+    "spec": {
+      "t": "twoCol",
+      "eyebrow": "02 · 背景",
+      "title": "为什么是现在",
+      "sub": "三股力量同时成熟。",
+      "left": { "title": "驱动力", "lead": "数据、算力与需求共振。", "bullets": ["医疗数据爆发", "GPU 算力平民化", "医生供给短缺"] },
+      "img": "doctor using tablet technology"
+    },
+    "_why": "drop in a brand-new two-column page right after the agenda"
+  },
+  {
+    "op": "delete",
+    "slide": 8,
+    "_why": "cut a page we no longer want (8th slide at edit time)"
+  },
+  {
+    "op": "move",
+    "id": "s9",
+    "after": "s6",
+    "_why": "pull the closing nearer to the core argument"
+  },
+  {
+    "op": "theme",
+    "theme": "midnight",
+    "_why": "re-skin the whole deck to a different palette"
+  }
+]
